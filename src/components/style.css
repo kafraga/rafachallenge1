@@ -1,6 +1,6 @@
 img {
   height: 200px;
-  width: auto;
+  object-fit: contain;
 }
 
 p {
@@ -24,6 +24,11 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.info-product {
+  display: flex;
+  flex-direction: column;
 }
 
 .product-name {
@@ -77,4 +82,17 @@ p {
   border-radius: 3px;
   border: 1px royalblue solid;
   width: 40%;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+button:active {
+  background-color: lightblue;
 }
